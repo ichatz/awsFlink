@@ -4,19 +4,13 @@ import it.uniroma1.diag.iot.connector.AWSIoTMqttSink;
 import it.uniroma1.diag.iot.connector.AWSIoTMqttStream;
 import it.uniroma1.diag.iot.functions.*;
 import it.uniroma1.diag.iot.model.StationData;
-import org.apache.flink.api.common.serialization.SimpleStringEncoder;
-import org.apache.flink.core.fs.Path;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSink;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import org.apache.flink.streaming.api.functions.sink.filesystem.StreamingFileSink;
-import org.apache.flink.streaming.api.functions.sink.filesystem.rollingpolicies.DefaultRollingPolicy;
 import org.apache.flink.streaming.api.windowing.time.Time;
 import org.apache.log4j.BasicConfigurator;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * A simple flink stream processing engine that connects to the AWS IoT message broker,

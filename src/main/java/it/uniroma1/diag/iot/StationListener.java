@@ -1,6 +1,5 @@
 package it.uniroma1.diag.iot;
 
-import it.uniroma1.diag.iot.AppConfiguration;
 import it.uniroma1.diag.iot.connector.AWSIoTMqttStream;
 import it.uniroma1.diag.iot.functions.ParseMeasurement;
 import it.uniroma1.diag.iot.functions.TimeParser;

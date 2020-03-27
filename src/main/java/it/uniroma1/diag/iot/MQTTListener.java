@@ -1,7 +1,6 @@
 package it.uniroma1.diag.iot;
 
 import com.amazonaws.services.iot.client.AWSIotMqttClient;
-import com.amazonaws.services.iot.client.AWSIotQos;
 import com.amazonaws.services.iot.client.sample.sampleUtil.SampleUtil;
 import it.uniroma1.diag.iot.connector.AwsMessage;
 import it.uniroma1.diag.iot.connector.AwsTopic;
