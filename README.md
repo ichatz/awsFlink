@@ -10,4 +10,4 @@ More information:
 
 [Course Home Page](http://ichatz.me/Site/InternetOfThings2020)
 
-[Lecture talk (Part 1)](https://youtu.be/0rXK9lWKZz4), [Lecture talk (Part 2)](https://youtu.be/0njozHFYC14)
+[Lecture talk (Part 1)](https://youtu.be/tcDoL_001PM), [Lecture talk (Part 2)](https://youtu.be/0njozHFYC14)
